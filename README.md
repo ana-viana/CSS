@@ -1,13 +1,14 @@
 # CSS
 
-Desenvolvimento de uma página WEB para uma empresa de Estacionamento.
-O projeto iniciou com uma construção em HTML.
-E agora passará pela estilização com CSS.
-Teremos ao todos 5 páginas:
+Projeto de Desenvolvimento de Página WEB
+Aqui teremos a estilização da página que iniciou-se com a estrutura de HTML - Semântico
 
+Para esta empresa de Estacionamento 24 Horas.
+Criamos as páginas:
+- Index;
+- Serviços;
+- Sobre;
+- Planos;
+- Contato.
 
-## Home
-## Serviços
-## Sobre
-## Planos
-## Contato
+Este é um projeto completo. Porém estará separado entre HTML, CSS, JAVASCRIPT, BOOTSTRAP, PYTHON + DJANGO.
