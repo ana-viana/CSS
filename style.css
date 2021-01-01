@@ -1,0 +1,157 @@
+body {
+	font-family:  Helvetica,Arial
+	color: #36393c;
+}
+header {
+	float: left;
+	background-color: #3b8686;
+	width: 100%;
+}
+header img {
+	padding: 10px;
+	
+}
+header p {
+	float: right;
+	color: #fff;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+
+	color: #fff;
+	background:#CC7000;
+	padding: 20px 5px;
+}
+#slogan{
+	float: left;
+	width: 40%;
+	height: 40%;
+	display: block;
+	padding: 10px;
+	color: #CC7000;
+	font-weight: bold;
+	font-family: Lucida Console;
+	font-size: 20px;
+}
+nav {
+	float: right;
+	padding: 20px;
+}
+#menu-icon {
+	display: none;
+	width: 20px;
+	background:#3B8686 url(../img/m2.png)right;
+	background-repeat: no-repeat;
+	/*margin-top: 10px;*/
+}
+ul {
+	list-style: none;
+}
+li {
+	display: inline-block;
+	float: left;
+	padding: 10px
+}
+footer {
+	background-color: #3b8686;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+/*MEDIA QUERY iphone5*/
+
+@media only screen and (max-width: 480px) {
+
+	body {
+		width: 100%;
+		margin-left: 5px;
+		
+	}
+	#menu-icon {
+			display:block;
+			background-color:#3B8686;
+			float: right;
+			padding:7px;
+			margin:5px;
+			/*border:5px;*/
+
+	}
+	header img {
+			float: left;
+			z-index: -1
+			width:25%;
+			height: 25%;
+			/*padding:0px;*/
+			margin-top: 0px;
+	}
+	nav ul {
+			display: none;
+			position: absolute;
+			right:20px;
+			top:60px;
+			padding:20px;
+			background:#fff;
+			width:20%;
+			float: left;
+	}
+	nav li {
+			text-align: left;
+			width: 100%;
+			padding: 10px 0;
+			margin:0;
+	}
+	nav:hover ul {
+			display: block;
+	}
+
+	nav li a {
+			color: #3B8686;
+
+	}
+	a:hover {
+		color: #CC7000;
+	}
+	div p {
+			text-align: justify;
+			color: #36393c;
+			
+	}
+	p#slogan {
+			font-size:15px;
+			color: #CC7000;
+			padding-bottom: 1px;
+			float: left;
+			border-top: 2px solid #fff;
+			border-bottom: 2px solid #fff;
+	}
+	.depoimentos {
+			box-shadow: 10px 10px 5px #888888;
+			border-radius: 5px;
+			width: 95%;
+			padding-right: 10px;
+	}
+	nav #nav-footer {
+			display: none;
+	}
+	#copyright p {
+			text-align: center;
+	}
+	h2 {
+		display: block;
+		color:#3B8686;
+	}
+	footer h2 {
+		color: #fff;
+	}
+		}
+	footer nav {
+		background-color: #3B8686;
+	}
+}
+
+
